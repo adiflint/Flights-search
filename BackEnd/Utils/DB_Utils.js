@@ -72,6 +72,10 @@ async function insertFlightsToDb(flight) {
   }
 };
 
+async function closeConnection(){
+  pool.close();
+}
+
 // extract flight's info, changes paramaters names 
 async function extractInfo(flights){
   return flights.map((flight_details) => {
@@ -105,7 +109,9 @@ async function extractInfo(flights){
 });
 }
 
+// pool.close();
+
 exports.execQuery = execQuery;
 exports.getAllReservedFlights = getAllReservedFlights;
 exports.insertFlightsToDb = insertFlightsToDb;
-
+exports.closeConnection = closeConnection;

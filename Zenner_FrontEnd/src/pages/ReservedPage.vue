@@ -17,6 +17,8 @@
 
 <script>
 import flightView from "../components/flightView";
+import axios from "axios";
+
 export default {
   components: {
     flightView
@@ -36,11 +38,13 @@ export default {
   },
   //once enter the page-  send a get request to server- get all reserved flight
   async created() {
-    try {
-      const response = await this.axios.get("http://localhost:3000/reservedFlights" );
-      this.flights = response.data;
-    } catch (error) {
-    }
+      try{
+        const response = await axios.get("http://localhost:3000/reservedFlights" );
+        this.flights = response.data;
+      }catch(e){
+        console.error(e);
+      }
   }
+  
 };
 </script>

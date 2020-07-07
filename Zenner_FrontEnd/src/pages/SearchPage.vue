@@ -89,7 +89,6 @@ export default {
             this.isSearched = 'true';
           } catch (error) {
             this.flights = undefined;
-           console.error(error);
         }
 
         },
