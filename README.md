@@ -4,8 +4,6 @@
 ### run server 
 ```npm run start```
 
-### run test for server 
-```npm run test```
 
 ### run client
 ```  cd Zenner_FrontEnd ```
