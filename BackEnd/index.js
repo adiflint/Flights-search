@@ -77,8 +77,7 @@ app.post("/reserve", async (req, res, next) => {
     if( req.body){
       let success = await DButils.insertFlightsToDb(req.body);
       if( success)  res.status(200).send("flight saved succefully");
-      //todo check statusss 
-      // else res.status(400).send("flight already reserved");
+      else res.status(400).send("flight already reserved");
     }
   }catch (error) {
     console.log(error.res);

@@ -109,7 +109,6 @@ async function extractInfo(flights){
 });
 }
 
-// pool.close();
 
 exports.execQuery = execQuery;
 exports.getAllReservedFlights = getAllReservedFlights;

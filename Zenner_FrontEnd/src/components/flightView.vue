@@ -56,7 +56,7 @@ export default {
             await axios.post(`http://localhost:3000/reserve`, params);
             alert("your flight has been confirmed");
           } catch (error) {
-            if( error.response == undefined) console.log("not drfniffs") ;
+            if( error.response == undefined) console.log("no connection") ;
             else if( error.response.status == '409')
             alert("flight already exists");
             return false;

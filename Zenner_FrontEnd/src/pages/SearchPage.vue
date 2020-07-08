@@ -40,7 +40,7 @@
 
    <br>
     <div>
-        <!-- shows serach flights result -->
+        <!-- shows search flights result -->
       <div v-if="flights">
           <strong> Available flights: </strong>
           <flightView :flights="flights" :withButton="true" />

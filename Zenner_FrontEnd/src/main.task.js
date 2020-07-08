@@ -1,4 +1,4 @@
-//* Main generates theh vue component
+//* Main generates the vue component
 import Vue from "vue";
 import App from "./App.task.vue";
 import VueAxios from "vue-axios";
