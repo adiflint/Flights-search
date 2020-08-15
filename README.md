@@ -7,15 +7,14 @@ and uses a MSSQL DB in Azure platform.
 Second part- Client side: The client was developed in Vue.js framework and using bootstrap-vue components.
 
 ### OPERATIONS
-* First page: flight search and reservation. 
-Find a flight by given airport name, flight number and date 
-* Second page: view all reserved flights.
+* First page: flight search and reservation.
 ```Search flights by airport name ,flight number and date```
+* Second page: view all reserved flights.
 ### RUN 
 In order to run my project, please clone the repo and then run the following commands:
 npm install 
 
-### run server 
+## Run server 
 ```npm run start```
 
 ### run tests for server 
