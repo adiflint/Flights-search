@@ -4,7 +4,7 @@
 ### A client-server project. the server works with Lumo-Api 
 ### and finds flights by given airport name, flight number and date 
 ### the client can select a flight and book it, then the flight saved on the Database- MSSQL
-### Secons page: all reserved flights.
+### Second page: view all reserved flights.
 
 ### run server 
 ```npm run start```
