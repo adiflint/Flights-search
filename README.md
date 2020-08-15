@@ -1,5 +1,5 @@
 
-```Zenner Assignment - Adi Flint```
+```Search flights by airport name ,flight number and date```
 
 ### run server 
 ```npm run start```
@@ -8,7 +8,7 @@
 ```npm run test```
 
 ### run client
-```  cd Zenner_FrontEnd ```
+```  cd FrontEnd ```
 ```  npm run serve_task ```
 ```  enter to Local: http://localhost:8082/ ```
 
