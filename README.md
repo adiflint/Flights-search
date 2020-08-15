@@ -1,5 +1,14 @@
 
 ## Flight Search Website 
+### INTRODUCTION
+This is a full-stack Project about flight search.
+First part- Server side: The server was developed in Node.js environment and Express.js framework. This part includes a connection with Lumo external API
+and uses a MSSQL DB in Azure platform.
+Second part- Client side: The client was developed in Vue.js framework and using bootstrap-vue components.
+
+### OPERATIONS
+* First page: flight search and reservation. 
+
 ```Search flights by airport name ,flight number and date```
 ### First page: flight search and reservation.
 ### A client-server project. the server works with Lumo-Api 
