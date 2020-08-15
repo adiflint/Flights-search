@@ -9,6 +9,7 @@ Second part- Client side: The client was developed in Vue.js framework and using
 ### OPERATIONS
 * First page: flight search and reservation.
 ```Search flights by airport name ,flight number and date```
+
 By choosing a flight, the program will resevred the flight and save it on DB.
 * Second page: view all reserved flights.
 ### RUN The Project
