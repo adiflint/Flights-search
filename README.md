@@ -10,17 +10,17 @@ Second part- Client side: The client was developed in Vue.js framework and using
 * First page: flight search and reservation.
 ```Search flights by airport name ,flight number and date```
 * Second page: view all reserved flights.
-### RUN 
+### RUN The Project
 In order to run my project, please clone the repo and then run the following commands:
 npm install 
 
-## Run Server 
+### Run Server 
 ```npm run start```
 
-## run tests for server 
+### run tests for server 
 ```npm run test```
 
-## Run Client
+### Run Client
 ```  cd Client ```
 ```  npm run serve_task ```
 ```  enter to Local: http://localhost:8080/ ```
