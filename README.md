@@ -14,13 +14,13 @@ Second part- Client side: The client was developed in Vue.js framework and using
 In order to run my project, please clone the repo and then run the following commands:
 npm install 
 
-## Run server 
+## Run Server 
 ```npm run start```
 
-### run tests for server 
+## run tests for server 
 ```npm run test```
 
-### run client
+## Run Client
 ```  cd Client ```
 ```  npm run serve_task ```
 ```  enter to Local: http://localhost:8080/ ```
