@@ -13,7 +13,7 @@
 ```npm run test```
 
 ### run client
-```  cd FrontEnd ```
+```  cd Client ```
 ```  npm run serve_task ```
 ```  enter to Local: http://localhost:8080/ ```
 
