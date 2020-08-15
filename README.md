@@ -1,10 +1,10 @@
 
 ```Search flights by airport name ,flight number and date```
  First page: flight search and reservation.
-## A client-server project. the server works with Lumo-Api 
-## and finds flights by given airport name, flight number and date 
-## the client can select a flight and book it, then the flight saved on the Database- MSSQL
-## Secons page: all reserved flights.
+### A client-server project. the server works with Lumo-Api 
+### and finds flights by given airport name, flight number and date 
+### the client can select a flight and book it, then the flight saved on the Database- MSSQL
+### Secons page: all reserved flights.
 
 ### run server 
 ```npm run start```
