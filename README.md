@@ -8,13 +8,12 @@ Second part- Client side: The client was developed in Vue.js framework and using
 
 ### OPERATIONS
 * First page: flight search and reservation. 
-
+Find a flight by given airport name, flight number and date 
+* Second page: view all reserved flights.
 ```Search flights by airport name ,flight number and date```
-### First page: flight search and reservation.
-### A client-server project. the server works with Lumo-Api 
-### and finds flights by given airport name, flight number and date 
-### the client can select a flight and book it, then the flight saved on the Database- MSSQL
-### Second page: view all reserved flights.
+### RUN 
+In order to run my project, please clone the repo and then run the following commands:
+npm install 
 
 ### run server 
 ```npm run start```
